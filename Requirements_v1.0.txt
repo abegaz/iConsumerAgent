@@ -1,0 +1,90 @@
+﻿
+Agent-Based Consumer Product Rating - Daniel Dupont | Lois Edekin-Odion | Drew Ford | Donovan Hoang | Donny Kell | Alex Kirby | Carter Lawerence
+ 
+| Austin Lorans
+
+
+Functional Requirements 
+
+
+1. As a consumer I want the product rating system to be secure, so that my information is kept private
+
+
+2) As a customer I want the consumer product rating system to be user friendly, so that it is easy for “technology impaired” people to use 
+
+
+3) As a product reviewer I want to be able to edit/update my reviews, so I may change grammatical errors or update my thoughts on a product.
+
+
+4)  As a user I would like the ability to search for products of interest.
+
+
+5)  As a user I would like ability to navigate to the website where the reviewed product is marketed, so that I can buy a product I am interested in.
+
+
+6)  To be able to view a consumer based rating of the product of interest.
+
+
+7)  To be able to view previously viewed products.
+
+
+8)  To be able to view products similar to the product of interest.
+
+
+9)  The ability for a customer to sign up and become a member.
+
+
+10) Implement a CAPTCHA system to help prevent automated/bot registration.
+
+
+11)  The ability to receive an email confirming membership and to verify.
+
+
+12)  The ability to filter review ratings. Such as seeing the negative reviews, positive reviews, etc.
+
+
+13) The ability to allow other customers to indicate whether they found another review helpful or not.
+
+
+14)  The ability to view the price of the reviewed product of interest from various vendors.
+
+
+15)  The ability to select a category of products from a drop down list.
+
+
+16) Create and clearly define a Relational Database that can easily and efficiently search/store/retrieve data into the database
+
+
+17) The database is secure from various attacks such as SQL injections
+
+
+18) The ability to detect review “bombing” (a high amount of negative or positive reviews in a short amount of time with the intention of drastically changing the rating of said product) [Note: Might be too similar to other CSCI3300 project, but it can be done on a much simpler level]
+
+
+19) Allow customers to sort reviews
+
+
+20) Predictive search suggestions
+
+
+21) To ensure any external links provided by the application (such as a link to the product on amazon) are authentic, safe, and secure; i.e. do not allow malicious links embed themselves among safe links. Particularly within modules such as links to online vendors selling the product.
+
+
+
+
+Non-Functional Requirements
+
+
+1) Clean, simple UI. Not overtly crowded with a bunch of images and buttons that do not add anything significant to the user experience
+
+
+2) Design the application to be viewable on both mobile devices and on a computer
+
+
+3) Design the UI in accordance with the 7 Principles of Good Design
+
+
+4) Minimally invasive Advertisement placement. For example; no annoying pop-ups or awkwardly placed banner advertisement. Banners are kept to the borders of the site.
+
+
+5) DNS name that is not overtly complicated, long, or hard to spell for people to search for or type in the URL for. For example: www.justreallyreallysimplecustomerreviews.com would not be a good DNS name due to length and thus more opportunity to mess-up.
