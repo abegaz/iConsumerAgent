@@ -88,3 +88,14 @@ Non-Functional Requirements
 
 
 5) DNS name that is not overtly complicated, long, or hard to spell for people to search for or type in the URL for. For example: www.justreallyreallysimplecustomerreviews.com would not be a good DNS name due to length and thus more opportunity to mess-up.
+
+# Professor Feedback
+Exclude FR 1- FR 5 -- please use these for your next assignment 
+FR 6 - FR 16 ✓
+FR 17? 
+FR 18 -21 ✓
+NFR 1 (should be measureable)
+NFR 2 ✓
+NFR 3 ✓
+NFR 4 ✓
+NFR 5 ✓
