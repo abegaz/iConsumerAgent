@@ -1,0 +1,61 @@
+﻿
+Agent-Based Consumer Product Rating - Daniel Dupont | Lois Edekin-Odion | Drew Ford | Donovan Hoang | Donny Kell | Alex Kirby | Carter Lawerence
+ 
+| Austin Lorans
+
+
+Functional Requirements 
+
+1.  As a consumer I want the product rating system to be secure, so that my information is kept private
+
+2.  As a reviewer I would like to be able to rank the reviews from 1 to 5 stars.
+
+3.  As a product reviewer I want to be able to edit/update my reviews, so I may change grammatical errors or update my thoughts on a product.
+
+4.  As a user I would like the ability to search for products of interest.
+
+5.  As a user I would like ability to navigate to the website where the reviewed product is marketed, so that I can buy a product I am interested in.
+
+6.  As a reviewer I would like to be able to view a consumer based rating of the product of interest.
+
+7.  As a user I want to be able to view previously viewed products.
+
+8.  As a consumer I wish to be able to view products similar to the product of interest.
+
+9.  As an employee I want the ability for a customer to sign up and become a member.
+
+10. As an employee the implementation of a CAPTCHA system to help prevent automated/bot registration is important.
+
+11. As a user I want the ability to receive an email confirming membership and to verify.
+
+12. As a product reviewer I want the ability to filter review ratings. Such as seeing the negative reviews, positive reviews, etc.
+
+13. As a produtc manager I want my employee's to ensure our cutomers have the ability to allow other customers to indicate whether they found another review helpful or not.
+
+14. As a consumer I want to have the ability to view the price of the reviewed product of interest from various vendors.
+
+15. As a user the ability to select a category of products from a drop down list whille make things much easier for me, that is what I am looking for in a sight.
+
+16. As an employee I want to create and clearly define a Relational Database that can easily and efficiently search/store/retrieve data into the database to help our customers.
+
+17. As an employee I need to make sure that the database is secure from various attacks such as SQL injections
+
+18. As a consumer I want the ability to detect review “bombing” so that ways I can get a good and fair review for this product.
+
+19. As an employee I want to ensure that our product has predictive search suggestions to help our users. 
+
+20. As an employee I want to ensure any external links provided by the application are authentic, safe, and secure; i.e. do not allow malicious links embed themselves among safe links. Particularly within modules such as links to online vendors selling the product.
+
+
+Non-Functional Requirements
+
+
+1. As an employee I want to create a simple user interface that allows for easy navigation of the application through drop-down menus, buttons, and embedded links.
+
+2. As a product manager it is in my best interest to have my employees design the application to be viewable on both mobile devices and on a computer so that ways the user can use our product whether they are at home or on the road.
+
+3. As an employee I must design the UI in accordance with the 7 Principles of Good Design to help make the user's experience a great one.
+
+4. As a product manager I want to have minimally invasive Advertisement placement. For example; no annoying pop-ups or awkwardly placed banner advertisement. This will help user experience, since many people can find it frustrating when dealing with a lot of ads.
+
+5. As a product manager I want to have a DNS name that is not overtly complicated, long, or hard to spell for people to search for or type in the URL for. For example: www.justreallyreallysimplecustomerreviews.com would not be a good DNS name due to length and thus more opportunity to mess-up.
