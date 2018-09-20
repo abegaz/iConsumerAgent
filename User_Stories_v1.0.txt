@@ -59,3 +59,6 @@ Non-Functional Requirements
 4. As a product manager I want to have minimally invasive Advertisement placement. For example; no annoying pop-ups or awkwardly placed banner advertisement. This will help user experience, since many people can find it frustrating when dealing with a lot of ads.
 
 5. As a product manager I want to have a DNS name that is not overtly complicated, long, or hard to spell for people to search for or type in the URL for. For example: www.justreallyreallysimplecustomerreviews.com would not be a good DNS name due to length and thus more opportunity to mess-up.
+
+# Feedback 
+Good work
