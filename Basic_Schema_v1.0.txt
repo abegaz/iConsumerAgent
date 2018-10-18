@@ -1,0 +1,15 @@
+Basic Database Schema for iConsumer Agent
+
+NOTE: *=Primary Key || ^=Foreign Key
+
+Entity: User
+Attributes: UserID*, Email, password
+
+Entity: Product
+Attributes: ProductID*, product_name, polar_score, rating
+
+Entity: Product_Review_entries
+Attributes: prodID*^[ProductID], text, rating
+
+Entity: Product_Score
+Attributes: ProdID*^[ProductID], polarity_score*, review_rating
