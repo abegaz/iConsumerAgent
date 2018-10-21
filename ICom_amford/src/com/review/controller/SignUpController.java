@@ -1,6 +1,7 @@
 package com.review.controller;
 
 
+import com.review.model.Review;
 import javafx.animation.PauseTransition;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -38,16 +39,26 @@ public class SignUpController implements Initializable {
 
     }
 
+    //connects controller to the model
     @FXML
     public void SignUpUser(ActionEvent actionEvent) {
 
         progress.setVisible(true);
+
+        Review newData = new Review();
+
+        newData.setUsername(txtEmail.getText());
+        newData.setPassword(txtPass.getText());
+        newData.setEmail(txtEmail.getText());
+        newData.addSubribtionToDatabase();
+
         PauseTransition pt = new PauseTransition();
         pt.setDuration(Duration.seconds(3));
         pt.setOnFinished(ev ->{
-            System.out.print("Sign Up succesful");
+
         });
         pt.play();
+
     }
 
     public void UserLogin(ActionEvent actionEvent) {
