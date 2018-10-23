@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="482.0" prefWidth="604.0" style="-fx-background-color: #2D3447;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.review.controller.SignUpController">
+    <children>
+        <PasswordField fx:id="txtPass" layoutX="226.0" layoutY="187.0" promptText="Enter Password">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></PasswordField>
+        <TextField fx:id="txtUser" layoutX="226.0" layoutY="139.0" promptText="Enter Username">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></TextField>
+        <TextField fx:id="txtEmail" layoutX="227.0" layoutY="251.0" promptText="Enter Email">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </TextField>
+        <Button fx:id="SignUp" layoutX="263.0" layoutY="309.0" mnemonicParsing="false" onAction="#SignUpUser" prefHeight="25.0" prefWidth="103.0" style="-fx-background-color: #00bfff;" text="Sign Up" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Button>
+        <ImageView fitHeight="44.0" fitWidth="44.0" layoutX="166.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Password_Header.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="44.0" fitWidth="44.0" layoutX="166.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Username_Header.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="30.0" fitWidth="37.0" layoutX="173.0" layoutY="251.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@mail.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="214.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@logo.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="progress" fitHeight="87.0" fitWidth="230.0" layoutX="205.0" layoutY="352.0" pickOnBounds="true">
+            <image>
+                <Image url="@dot-transparent-animated-gif.gif" />
+            </image>
+        </ImageView>
+        <Button fx:id="login" layoutX="482.0" layoutY="42.0" mnemonicParsing="false" onAction="#UserLogin" prefHeight="31.0" prefWidth="70.0" style="-fx-background-color: #151928; -fx-border-color: #a0a2ab;" text="Login" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
